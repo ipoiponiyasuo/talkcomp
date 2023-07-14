@@ -119,6 +119,9 @@ html{
   background: #6a29b6;
   
 }
+.home-containers{
+  height: 96vh;
+}
 .home-botton{
   margin-top: 20px;
 }
@@ -171,7 +174,7 @@ html{
 }
 .home-flex{
 
-  height: 95vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -697,9 +700,8 @@ height: 100%;
 }
 }
 @media (max-width: 397px){
-  .con-title {
-    margin-top: 40px;
-   
+  .con-h1 h1 {
+    font-size: 30px;
 }
 .home-image {
   height: 150px;
@@ -728,7 +730,6 @@ height: 100%;
 .demand-desc .icon {
   font-size: 40px;
 }
-
 }
 @media (max-width: 292px){
 
