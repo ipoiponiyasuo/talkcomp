@@ -171,7 +171,7 @@ html{
 }
 .home-flex{
 
-  height: 100vh;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -697,8 +697,9 @@ height: 100%;
 }
 }
 @media (max-width: 397px){
-  .con-h1 h1 {
-    font-size: 23px;
+  .con-title {
+    margin-top: 40px;
+   
 }
 .home-image {
   height: 150px;
@@ -727,6 +728,7 @@ height: 100%;
 .demand-desc .icon {
   font-size: 40px;
 }
+
 }
 @media (max-width: 292px){
 
